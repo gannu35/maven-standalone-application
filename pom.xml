@@ -37,6 +37,21 @@
 
 	</dependencies>
 
+<distributionManagement>
+    <repository>
+         <id>nexus</id>
+         <name>ganesh internal</name>
+         <url>http
+http://3.110.41.248:8081/repository/ganesh-release/</url>
+    </repository>
+    <snapshotRepository>
+         <id>nexus</id>
+         <name>ganesh internal</name>
+         <url>
+http://3.110.41.248:8081/repository/ganesh-snapshot/</url>
+    </snapshotRepository>
+</distributionManagement>
+
 	<!-- Committing and updating changes through Maven, by using below mvn command. 
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
