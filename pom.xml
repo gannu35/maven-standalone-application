@@ -41,7 +41,7 @@
     <repository>
          <id>nexus</id>
          <name>ganesh</name>
-         <url>http://3.110.41.248:8081/repository/ganesh-release1/</url>
+         <url>http://3.110.41.248:8081/repository/ganesh-dev-release/</url>
     </repository>
     <snapshotRepository>
          <id>nexus</id>
