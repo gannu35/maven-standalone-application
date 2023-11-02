@@ -43,6 +43,12 @@
          <name>ganesh</name>
          <url>http://3.110.41.248:8081/repository/ganesh-dev-release/</url>
     </repository>
+
+	<snapshotRepository>
+         <id>nexus</id>
+         <name>ganesh internal</name>
+         <url>http://3.110.41.248:8081/repository/ganesh-snapshot/</url>
+    </snapshotRepository>
     
 </distributionManagement>
 
