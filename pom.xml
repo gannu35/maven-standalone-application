@@ -40,8 +40,8 @@
 <distributionManagement>
     <repository>
          <id>nexus</id>
-         <name>ganesh internal</name>
-         <url>http://3.110.41.248:8081/repository/ganesh-release/</url>
+         <name>ganesh</name>
+         <url>http://3.110.41.248:8081/repository/ganesh-release1/</url>
     </repository>
     <snapshotRepository>
          <id>nexus</id>
